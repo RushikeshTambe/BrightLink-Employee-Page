@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brightlink Employee Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bc15045e69.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main">
+    <!-- Left Sidebar -->
+    <div class="left-div">
+        <div class="left-top">
+            <img src="images/Mask group.png" class="img1">
+            <div class="buttons">
+                <button><i class="fa-solid fa-house-user"></i> Dashboard</button>
+                <button><i class="fa-solid fa-users"></i> Employee</button>
+                <button><i class="fa-solid fa-building-user"></i> Department</button>
+                <button><i class="fa-regular fa-calendar"></i> Attendance</button>
+                <button><i class="fa-regular fa-file"></i> Leave</button>
+                <button><i class="fa-solid fa-bullseye"></i> Project</button>
+                <button><i class="fa-solid fa-dollar-sign"></i> Payroll</button>
+                <button><i class="fa-solid fa-user"></i> Your Profile</button>
+                <button><i class="fa-regular fa-envelope"></i> Email</button>
+                <button><i class="fa-solid fa-gear"></i> Settings</button>
+                <div class="left-bottom">
+                    <div class="button1">
+                        <button><i class="fa-solid fa-circle-left"></i>Logout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Right Content Section -->
+    <div class="right-div">
+
+        <div class="top-bar">
+            <div class="search-container">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" class="search-input" placeholder="Search Anything Here...">
+                <div class="icons">
+                    <i class="fa-regular fa-bell" class="icon2"></i>
+                    <i class="fa-regular fa-circle-question"></i>
+                    <div class="profile">
+                       <img src="images/Ellipse 66.png" alt="Profile">
+                    </div>
+                </div>
+                
+            </div>
+           
+        </div>
+       
+
+
+        <h2>Add Employee</h2>
+        <form>
+            <div class="input-group">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter full name">
+            </div>
+            <div class="input-group">
+                <label>Nick Name</label>
+                <input type="text" placeholder="Enter nick name">
+            </div>
+            <div class="input-group">
+                <label>Work</label>
+                <input type="text" placeholder="Enter work details">
+            </div>
+            <div class="input-group">
+                <label>Email</label>
+                <input type="email" placeholder="Enter email">
+            </div>
+            <div class="input-group">
+                <label>Phone</label>
+                <input type="text" placeholder="Enter phone number">
+            </div>
+            <div class="input-group">
+                <label>Select Department</label>
+                <select>
+                    <option>Select Department</option>
+                    <option>HR</option>
+                    <option>IT</option>
+                    <option>Finance</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label>Select Shift Time</label>
+                <select>
+                    <option>Select Shift Time</option>
+                    <option>Morning</option>
+                    <option>Afternoon</option>
+                    <option>Night</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label>Date</label>
+                <input type="date">
+            </div>
+            <div class="gender-group">
+                <label>Gender</label>
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+            </div>
+            <div class="last-buttons">
+                <button class="cancel">Cancel</button>
+                <button class="save">Save Data</button>
+            </div>
+        </form>
+    </div>
+</div>       
+</body>
+</html>
